@@ -23,6 +23,7 @@ p{
 }
 
   .container {
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,6 +41,14 @@ p{
     flex: 1;
     padding: 20px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
   }
 
   .text-container {
@@ -88,6 +97,7 @@ p{
 
     .form-container{
       flex: 2;
+      
     }
 
     button {
