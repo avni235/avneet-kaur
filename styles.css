@@ -36,6 +36,7 @@ p{
   }
 
   .form-container {
+    align-items: center;
     flex: 1;
     padding: 20px;
     background-color: white;
@@ -57,6 +58,9 @@ p{
 
   @media screen and (max-width: 768px) {
     body{ 
+
+      display: flex;
+      min-height: 100vh;
       background: radial-gradient(ellipse 500px 125px at bottom center, #B8ACDA 74%, white 72%);
       background-repeat: no-repeat;
     }
@@ -64,7 +68,9 @@ p{
       filter: none;
     }
     .container {
+      height: 48rem;
       flex-direction: column;
+      margin-bottom: 0;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0;
