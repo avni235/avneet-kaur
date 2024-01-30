@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto';
   margin: 0;
   padding: 0;
   width: 100%;
@@ -13,9 +13,11 @@ body {
 }
 h2{
     color: white;
+    padding: 0 0 0 50px;
 }
-p{
+ul{
     color: white;
+    padding: 0 50px 0px 50px;
 }
 
 .wrapper{
@@ -23,7 +25,6 @@ p{
 }
 
   .container {
-    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -43,6 +44,9 @@ p{
     padding: 20px;
     background-color: white;
   }
+  .form-container h2{
+    color: black;
+  }
 
   .text-container {
     flex: 1;
@@ -56,6 +60,11 @@ p{
     height: 44px;
     background-color: #2D9CDB;
     border: none;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 
   @media screen and (max-width: 768px) {
