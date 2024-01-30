@@ -25,6 +25,7 @@ p{
   .container {
     text-align: center;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 370px;
@@ -41,14 +42,6 @@ p{
     flex: 1;
     padding: 20px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin-right: 20px;
-    box-sizing: border-box;
-    font-size: 18px;
   }
 
   .text-container {
@@ -66,12 +59,9 @@ p{
   }
 
   @media screen and (max-width: 768px) {
-    body{ 
-
-      display: flex;
-      min-height: 100vh;
-      background: radial-gradient(ellipse 500px 125px at bottom center, #B8ACDA 74%, white 72%);
-      background-repeat: no-repeat;
+    body{
+    background: radial-gradient(ellipse 533px 211px at bottom center, #B8ACDA 74%, white 72%);
+    background-repeat: no-repeat;
     }
     .wrapper{
       filter: none;
@@ -79,7 +69,7 @@ p{
     .container {
       height: 48rem;
       flex-direction: column;
-      margin-bottom: 0;
+      margin-bottom: 160px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0;
